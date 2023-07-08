@@ -31,5 +31,6 @@ Table coming soon. (e.g. withDefaults - true/false, default true)
 
 ## Acknowledgements
 
-Did some research, no one has implemented something similar as a plugin, so here it is.
-Plugin template based on [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template)
+- No similar plugin available for this, so I made one.
+- Plugin bootstrapped from [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template)
+- Inspiration from the existing tool available at [Steve Hanov's blog](http://stevehanov.ca/blog/?id=52)
