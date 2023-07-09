@@ -15,11 +15,9 @@ Add a way to update text, removing filler, keeping the essentials.
 
 Coming soon.
 
-
 ## Install
 
 Coming soon.
-
 
 ## Keymaps
 
@@ -28,6 +26,11 @@ There are no keymaps by default. You can add keymaps to the operation(s) listed 
 ## Config
 
 Table coming soon. (e.g. withDefaults - true/false, default true)
+
+## TODO
+
+- [ ] Fix casing when lines wrap? e.g. code comments (not sure if should be in scope)
+- [ ] Preserve case based on original text, which should help with original sentences
 
 ## Acknowledgements
 

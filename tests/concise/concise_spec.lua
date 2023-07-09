@@ -1,12 +1,19 @@
 local plugin = require("concise")
 
 describe("setup", function()
-    it("works with default", function()
-        assert("my first function with param = Hello!", plugin.hello())
-    end)
+  it("removes unnecessary words", function()
+    assert("I think I can = I can", plugin.run("I think I can"))
+  end)
 
-    it("works with custom var", function()
-        plugin.setup({ opt = "custom" })
-        assert("my first function with param = custom", plugin.hello())
-    end)
+  it("replaces words with concise counterparts", function()
+    assert("It is 12 noon = It is noon", plugin.run())
+  end)
+
+  it("removes words based on user defined rules", function()
+    assert("my first function with param = run!", plugin.run())
+  end)
+
+  it("replaces words based on user defined rules", function()
+    assert("my first function with param = run!", plugin.run())
+  end)
 end)
